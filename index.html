@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Roller</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between mb-3">
+            <button id="generateDie" class="btn btn-primary">Generate Die</button>
+            <button id="rollDice" class="btn btn-secondary">Roll Dice</button>
+            <button id="sumDice" class="btn btn-success">Sum Dice</button>
+            <button id="advancedButton" class="btn btn-dark" style="display: none;">Advanced</button>
+        </div>
+        <div id="diceContainer" class="d-flex flex-wrap"></div>
+    </div>
+    <!-- Optional: Add Bootstrap JS and Popper.js for Bootstrap components -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

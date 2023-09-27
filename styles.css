@@ -1,0 +1,43 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.die {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;  /* Rounded corners for dice */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 24px;
+    background-color: #ffffff; /* White background for dice */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for dice */
+    transition: transform 0.2s, background-color 0.3s;  /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+.die:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+    transform: translateY(-3px); /* Move dice a bit upwards on hover */
+}
+
+#diceContainer {
+    align-content: start;  /* Aligns dice to the top in case of wrapping in flex container */
+}
